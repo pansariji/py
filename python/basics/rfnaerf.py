@@ -1,0 +1,12 @@
+a="my name is madhav aggarwal///////////..............////"
+# print(a.upper())
+# print(a.lower())
+print(a.rstrip(""))
+# print(a.replace("madhav","pansariji"))
+# print(a.split(" "))
+# print(a.capitalize())
+# print(len(a))
+# print(a.count("is"))
+# print(a.find("madhav"))
+# print(a.center(50))
+# print(a.endswith("is",0,10))
