@@ -8,13 +8,13 @@ print("Welcome to KBC")
 
 def money(j):
     if j%2!=0:
-         print("You Won: ",s[j])
+         print("Your take home money is: ",s[j])
     else:
-         print("You Won: ",s[j-1])
+         print("Your take home money is: ",s[j-1])
 
 for j in range(0,len(q)):
             ques=q[j]
-            print(f"Question no.{j+1}:\n",ques[0])
+            print(f"\n\nQuestion no.{j+1}:\n",ques[0])
             print(f"option 1: {ques[1]}    option 2: {ques[2]}")
             print(f"option 3: {ques[3]}    option 4: {ques[4]}")
             c=int(input("enter your answer(1-4): "))
