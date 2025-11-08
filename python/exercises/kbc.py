@@ -9,6 +9,8 @@ print("Welcome to KBC")
 def money(j):
     if j%2!=0:
          print("Your take home money is: ",s[j])
+    elif j==0:
+         print("Your take home money is: 0")
     else:
          print("Your take home money is: ",s[j-1])
 
@@ -25,7 +27,9 @@ for j in range(0,len(q)):
                 print("you won",s[j])
             else:
                 print("wrong answer")
-                print(money(j))
+                money(j)
+                break
             if j >= len(q) - 1:
                 print("quiz completed")
-                break
+            else:
+                continue
